@@ -2,8 +2,7 @@
 import Foundation
 import UIKit
 
-extension UIView: InjectListener {}
-extension UIViewController: InjectListener {}
+extension NSObject: InjectListener {}
 #elseif canImport(AppKit)
 import AppKit
 import Foundation
